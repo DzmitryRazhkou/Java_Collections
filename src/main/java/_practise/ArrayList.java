@@ -24,21 +24,23 @@ public class ArrayList {
 
 
         java.util.ArrayList<String> cloneList = (java.util.ArrayList<String>) ((java.util.ArrayList<String>) arr1).clone();
-        System.out.println("\n s: " +cloneList);
+        System.out.println("\n s: " + cloneList);
 
-        List<Integer> num = new java.util.ArrayList<>(Arrays.asList(1,4, 89, 7 , 4, 8 ,9, 12, 65, 15, 5, 99, 0, 8));
-        num.removeIf(n->n%2 == 0);
+        List<Integer> num = new java.util.ArrayList<>(Arrays.asList(1, 4, 89, 7, 4, 8, 9, 12, 65, 15, 5, 99, 0, 8));
+        num.removeIf(n -> n % 2 == 0);
         System.out.println(num);
 
         List<String> list = new java.util.ArrayList<String>(Arrays.asList("Java", "C#", "C++", "Php", "Swift", "Python", "Ruby"));
         list.retainAll(Collections.singleton("Php"));
         System.out.println(list);
 
-        List<String> list2 = new java.util.ArrayList<String>(Arrays.asList("Java", "C#", "C++", "Php", "Swift", "Python", "Ruby"));
-        Object[]ar = list2.toArray();
-        System.out.println("\nHey:" +Arrays.toString(ar));
+        System.out.println("_________");
 
-        for (String b: list2){
+        List<String> list2 = new java.util.ArrayList<String>(Arrays.asList("Java", "C#", "C++", "Php", "Swift", "Python", "Ruby"));
+        Object[] ar = list2.toArray();
+        System.out.println("\nHey:" + Arrays.toString(ar));
+
+        for (String b : list2) {
             System.out.println(b);
         }
 
@@ -80,7 +82,5 @@ public class ArrayList {
             its.hasNext();
             System.out.println(its.next());
         }
-
-
     }
 }

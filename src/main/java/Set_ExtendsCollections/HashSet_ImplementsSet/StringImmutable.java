@@ -1,7 +1,5 @@
 package Set_ExtendsCollections.HashSet_ImplementsSet;
 
-import Set_ExtendsCollections.HashSet_ImplementsSet.Employee;
-
 import java.util.HashMap;
 import java.util.Map;
 

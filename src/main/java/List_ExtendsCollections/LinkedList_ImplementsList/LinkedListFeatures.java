@@ -26,6 +26,7 @@ public class LinkedListFeatures {
         cities.add("Chesapeake");
         cities.add("Cleveland");
         cities.add("Toronto");
+        System.out.println("Sf: " +cities.getFirst());
 
         System.out.println(cities);
         System.out.println("________");

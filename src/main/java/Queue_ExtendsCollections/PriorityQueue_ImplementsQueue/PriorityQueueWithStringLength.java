@@ -19,6 +19,8 @@ public class PriorityQueueWithStringLength {
         pre.add("Dzmitry Razhkou");
         pre.add("Dzmitry");
         pre.add("Dmit");
+        System.out.println("head: " +pre.element());
+        System.out.println("tail: " +pre.peek());
 
         System.out.println("The Highest: " +pre.poll());
 

@@ -49,8 +49,5 @@ public class SynchronizeArrays {
                 System.out.println(it.next());
             }
         }
-
-
-
     }
 }

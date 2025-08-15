@@ -13,7 +13,8 @@ public class EnumSetConcept {
     enum States {
         NJ, CA, NY, MA, RD, CO, FL, AZ, OR, WA;
 
-    public static void main(String[] args) {
+
+        public static void main(String[] args) {
 
 //        Created a new enum set using Enum:
 
@@ -71,12 +72,6 @@ public class EnumSetConcept {
         boolean b = nf.remove(States.MA);
 
         System.out.println(b);
-
-
-
-
-
-
 
     }
 

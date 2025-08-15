@@ -13,6 +13,7 @@ public class VectorConcept {
         lakes.add("Ontario");
         lakes.add("Great Salt Lake");
         lakes.add("Erie");
+        System.out.println("SF: "+lakes.lastIndexOf("Great Salt Lake"));
 
         Iterator it = lakes.iterator();
         while (it.hasNext()) {
@@ -31,9 +32,5 @@ public class VectorConcept {
 
         Collections.sort(lakes);
         System.out.println(lakes);
-
-
-
-
     }
 }
